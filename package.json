@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "dev:remote": "astro dev --remote",
+    "build": "astro build --remote",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -16,5 +17,8 @@
     "@astrojs/sitemap": "^3.5.0",
     "astro": "^5.13.2",
     "sharp": "^0.34.2"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.1"
   }
 }
